@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		135E5F497C72BFF5095E856C /* Pods_ExampleStickyHeaderView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19787ACB3A86D455AF620262 /* Pods_ExampleStickyHeaderView.framework */; };
+		2ED102AE3D0D2E2DE985E06E /* Pods_ExampleStickyHeaderView_ExampleStickyHeaderViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2E8024C245061F2FC38972 /* Pods_ExampleStickyHeaderView_ExampleStickyHeaderViewUITests.framework */; };
+		B3D07C8BD18879D04E14AB2D /* Pods_ExampleStickyHeaderViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E214FBA25A6EB1D5F4A4DB /* Pods_ExampleStickyHeaderViewTests.framework */; };
 		D2F1655D2B99895400F811A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F1655C2B99895400F811A2 /* AppDelegate.swift */; };
 		D2F1655F2B99895400F811A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F1655E2B99895400F811A2 /* SceneDelegate.swift */; };
 		D2F165612B99895400F811A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F165602B99895400F811A2 /* ViewController.swift */; };
@@ -36,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19787ACB3A86D455AF620262 /* Pods_ExampleStickyHeaderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleStickyHeaderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DF9BD172CB0598BCDC4CF3 /* Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests/Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C532A0FB3B0D3077ED7554C /* Pods-ExampleStickyHeaderViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleStickyHeaderViewTests.debug.xcconfig"; path = "Target Support Files/Pods-ExampleStickyHeaderViewTests/Pods-ExampleStickyHeaderViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5824626B00275B1FC9D03B03 /* Pods-ExampleStickyHeaderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleStickyHeaderView.debug.xcconfig"; path = "Target Support Files/Pods-ExampleStickyHeaderView/Pods-ExampleStickyHeaderView.debug.xcconfig"; sourceTree = "<group>"; };
+		76DBA44B39ACC35A2D9F229E /* Pods-ExampleStickyHeaderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleStickyHeaderView.release.xcconfig"; path = "Target Support Files/Pods-ExampleStickyHeaderView/Pods-ExampleStickyHeaderView.release.xcconfig"; sourceTree = "<group>"; };
+		9B2E8024C245061F2FC38972 /* Pods_ExampleStickyHeaderView_ExampleStickyHeaderViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleStickyHeaderView_ExampleStickyHeaderViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC44602FCD29177B12A3D520 /* Pods-ExampleStickyHeaderViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleStickyHeaderViewTests.release.xcconfig"; path = "Target Support Files/Pods-ExampleStickyHeaderViewTests/Pods-ExampleStickyHeaderViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6E9C58BCFDFD54F8468406B /* Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests.release.xcconfig"; path = "Target Support Files/Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests/Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2E214FBA25A6EB1D5F4A4DB /* Pods_ExampleStickyHeaderViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleStickyHeaderViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F165592B99895400F811A2 /* ExampleStickyHeaderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleStickyHeaderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F1655C2B99895400F811A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2F1655E2B99895400F811A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135E5F497C72BFF5095E856C /* Pods_ExampleStickyHeaderView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D07C8BD18879D04E14AB2D /* Pods_ExampleStickyHeaderViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ED102AE3D0D2E2DE985E06E /* Pods_ExampleStickyHeaderView_ExampleStickyHeaderViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25A3501F53E6814140C3B0D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19787ACB3A86D455AF620262 /* Pods_ExampleStickyHeaderView.framework */,
+				9B2E8024C245061F2FC38972 /* Pods_ExampleStickyHeaderView_ExampleStickyHeaderViewUITests.framework */,
+				C2E214FBA25A6EB1D5F4A4DB /* Pods_ExampleStickyHeaderViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67F04F140D14AF02CD66F3F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5824626B00275B1FC9D03B03 /* Pods-ExampleStickyHeaderView.debug.xcconfig */,
+				76DBA44B39ACC35A2D9F229E /* Pods-ExampleStickyHeaderView.release.xcconfig */,
+				23DF9BD172CB0598BCDC4CF3 /* Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests.debug.xcconfig */,
+				B6E9C58BCFDFD54F8468406B /* Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests.release.xcconfig */,
+				4C532A0FB3B0D3077ED7554C /* Pods-ExampleStickyHeaderViewTests.debug.xcconfig */,
+				AC44602FCD29177B12A3D520 /* Pods-ExampleStickyHeaderViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D2F165502B99895400F811A2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				D2F165722B99896200F811A2 /* ExampleStickyHeaderViewTests */,
 				D2F1657C2B99896200F811A2 /* ExampleStickyHeaderViewUITests */,
 				D2F1655A2B99895400F811A2 /* Products */,
+				67F04F140D14AF02CD66F3F0 /* Pods */,
+				25A3501F53E6814140C3B0D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2F165832B99896200F811A2 /* Build configuration list for PBXNativeTarget "ExampleStickyHeaderView" */;
 			buildPhases = (
+				2FA12C2B8331B3C83CEA147C /* [CP] Check Pods Manifest.lock */,
 				D2F165552B99895400F811A2 /* Sources */,
 				D2F165562B99895400F811A2 /* Frameworks */,
 				D2F165572B99895400F811A2 /* Resources */,
+				118C6798C0E6F763DCFBBE80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2F165862B99896200F811A2 /* Build configuration list for PBXNativeTarget "ExampleStickyHeaderViewTests" */;
 			buildPhases = (
+				A42B20B3459B200B13A322B8 /* [CP] Check Pods Manifest.lock */,
 				D2F1656B2B99896200F811A2 /* Sources */,
 				D2F1656C2B99896200F811A2 /* Frameworks */,
 				D2F1656D2B99896200F811A2 /* Resources */,
@@ -169,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2F165892B99896200F811A2 /* Build configuration list for PBXNativeTarget "ExampleStickyHeaderViewUITests" */;
 			buildPhases = (
+				4742AC6047DF3F9AA59E9589 /* [CP] Check Pods Manifest.lock */,
 				D2F165752B99896200F811A2 /* Sources */,
 				D2F165762B99896200F811A2 /* Frameworks */,
 				D2F165772B99896200F811A2 /* Resources */,
+				B2C0A30B6C0E8177AAC22B46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		118C6798C0E6F763DCFBBE80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleStickyHeaderView/Pods-ExampleStickyHeaderView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleStickyHeaderView/Pods-ExampleStickyHeaderView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleStickyHeaderView/Pods-ExampleStickyHeaderView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA12C2B8331B3C83CEA147C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleStickyHeaderView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4742AC6047DF3F9AA59E9589 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42B20B3459B200B13A322B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleStickyHeaderViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2C0A30B6C0E8177AAC22B46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests/Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests/Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests/Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2F165552B99895400F811A2 /* Sources */ = {
@@ -437,12 +585,14 @@
 		};
 		D2F165842B99896200F811A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5824626B00275B1FC9D03B03 /* Pods-ExampleStickyHeaderView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y9WR52N5H5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExampleStickyHeaderView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -465,12 +615,14 @@
 		};
 		D2F165852B99896200F811A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DBA44B39ACC35A2D9F229E /* Pods-ExampleStickyHeaderView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y9WR52N5H5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExampleStickyHeaderView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -493,6 +645,7 @@
 		};
 		D2F165872B99896200F811A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C532A0FB3B0D3077ED7554C /* Pods-ExampleStickyHeaderViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +666,7 @@
 		};
 		D2F165882B99896200F811A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC44602FCD29177B12A3D520 /* Pods-ExampleStickyHeaderViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +687,7 @@
 		};
 		D2F1658A2B99896200F811A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DF9BD172CB0598BCDC4CF3 /* Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +706,7 @@
 		};
 		D2F1658B2B99896200F811A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E9C58BCFDFD54F8468406B /* Pods-ExampleStickyHeaderView-ExampleStickyHeaderViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

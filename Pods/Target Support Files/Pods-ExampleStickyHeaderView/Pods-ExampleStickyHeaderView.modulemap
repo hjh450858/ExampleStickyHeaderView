@@ -1,0 +1,6 @@
+framework module Pods_ExampleStickyHeaderView {
+  umbrella header "Pods-ExampleStickyHeaderView-umbrella.h"
+
+  export *
+  module * { export * }
+}

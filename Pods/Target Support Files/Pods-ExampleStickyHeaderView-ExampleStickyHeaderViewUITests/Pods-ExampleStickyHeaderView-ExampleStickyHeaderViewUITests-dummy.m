@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ExampleStickyHeaderView_ExampleStickyHeaderViewUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ExampleStickyHeaderView_ExampleStickyHeaderViewUITests
+@end
